@@ -1,0 +1,174 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-left: 270px;
+  margin-top: 20px;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+body {
+  font-family: sans-serif;
+}
+/*facebook*/
+
+.facebook {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon_facebook {
+  width: 100px;
+  height: 100px;
+}
+
+.next-to_facebook {
+  height: 95px;
+  width: 0;
+  border-radius: 5px;
+  background-color: darkblue;
+  transition: all 3s;
+  visibility: hidden;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+
+.icon_facebook:hover + .next-to_facebook,
+.next-to_facebook:hover {
+  width: 450px;
+  visibility: visible;
+}
+
+/*facebook end*/
+
+/* TWITTER*/
+
+.twitter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon_twitter {
+  width: 100px;
+  height: 100px;
+}
+
+.next-to_twitter {
+  height: 95px;
+  width: 0;
+  border-radius: 5px;
+  background-color: deepskyblue;
+  transition: all 3s;
+  visibility: hidden;
+}
+
+.icon_twitter:hover + .next-to_twitter,
+.next-to_twitter:hover {
+  width: 450px;
+  visibility: visible;
+}
+
+/* TWITTER end */
+
+/* instagram */
+
+.instagram {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon_instagram {
+  width: 100px;
+  height: 100px;
+}
+
+.next-to_instagram {
+  height: 95px;
+  width: 0;
+  border-radius: 5px;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  transition: all 3s;
+  visibility: hidden;
+}
+
+.icon_instagram:hover + .next-to_instagram,
+.next-to_instagram:hover {
+  width: 450px;
+  visibility: visible;
+}
+
+/* instagram end */
+
+/* google */
+
+.google {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon_google {
+  width: 100px;
+  height: 100px;
+}
+
+.next-to_google {
+  height: 95px;
+  width: 0;
+  border-radius: 5px;
+  background-color: orangered;
+  transition: all 3s;
+  visibility: hidden;
+}
+
+.icon_google:hover + .next-to_google,
+.next-to_google:hover {
+  width: 450px;
+  visibility: visible;
+}
+
+/* google end */
+
+/* Whatsapp */
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon_whatsapp {
+  width: 100px;
+  height: 100px;
+}
+
+.next-to_whatsapp {
+  height: 95px;
+  width: 0;
+  border-radius: 5px;
+  background-color: limegreen;
+  transition: all 3s;
+  visibility: hidden;
+}
+
+.icon_whatsapp:hover + .next-to_whatsapp,
+.next-to_whatsapp:hover {
+  width: 450px;
+  visibility: visible;
+}
